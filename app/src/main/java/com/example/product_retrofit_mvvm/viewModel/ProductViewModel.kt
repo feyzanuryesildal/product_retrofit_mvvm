@@ -6,7 +6,6 @@ import androidx.lifecycle.ViewModel
 import com.example.product_retrofit_mvvm.network.RetrofitInstance
 import com.example.product_retrofit_mvvm.network.ProductService
 import com.example.product_retrofit_mvvm.network.model.ProductsModel
-import com.example.product_retrofit_mvvm.network.model.ProductsModelItem
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

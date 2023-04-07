@@ -2,12 +2,10 @@ package com.example.product_retrofit_mvvm
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.product_retrofit_mvvm.adapter.ProductsAdapter
-import com.example.product_retrofit_mvvm.network.ProductService
 import com.example.product_retrofit_mvvm.viewModel.ProductViewModel
 
 

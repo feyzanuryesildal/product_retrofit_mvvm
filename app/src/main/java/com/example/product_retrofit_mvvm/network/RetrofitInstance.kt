@@ -1,7 +1,6 @@
 package com.example.product_retrofit_mvvm.network
 
 import com.example.product_retrofit_mvvm.network.model.BASE_URL
-import com.example.product_retrofit_mvvm.network.model.ProductsModel
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
