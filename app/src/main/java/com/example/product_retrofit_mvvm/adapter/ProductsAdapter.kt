@@ -9,13 +9,14 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 //import com.bumptech.glide.Glide
 import com.example.product_retrofit_mvvm.R
+import com.example.product_retrofit_mvvm.network.model.ProductsModel
 import com.example.product_retrofit_mvvm.network.model.ProductsModelItem
 import com.squareup.picasso.Picasso
 
 
 
 
-class ProductsAdapter(private val products: List<ProductsModelItem>) : RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
+class ProductsAdapter(private val products: ProductsModel) : RecyclerView.Adapter<ProductsAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_product, parent, false)

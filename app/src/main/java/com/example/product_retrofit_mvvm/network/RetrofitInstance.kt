@@ -5,11 +5,14 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitInstance {
-    fun getRetrofitInstance() : Retrofit{
-        return Retrofit.Builder()
+    fun getRetrofitInstance() : ProductService {
+        var retrofit = Retrofit.Builder()
             .baseUrl(BASE_URL)
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+
+        return retrofit.create(ProductService::class.java)
+
     }
 
 
